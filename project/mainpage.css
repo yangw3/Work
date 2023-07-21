@@ -1,0 +1,249 @@
+#postBtn{
+    padding: 1em 2.5em;
+    font-size: 15px;
+    text-transform: uppercase;
+    /* letter-spacing: 2.5px; */
+    color: #000;
+    background-color: #47B5FF;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 2%;
+    margin-left: 85%;
+   
+  }
+  
+  #postBtn:hover {
+    background-color: #89CFFD;
+    box-shadow: 0px 15px 20px #277BC0;
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  #postBtn:active {
+    transform: translateY(-1px);
+  }
+
+
+
+#postBody{
+    width: 100%;
+    height: 200px;
+
+}
+
+#formArea{
+  background-color: #eefaff;
+  margin: 2% 20% 0% 20%;
+  padding: 15px;
+  border-radius: 10px;
+  color: inherit;
+  width: 75%;
+}
+
+#formToggleBtn {
+  padding: 5px 10px;
+  border: unset;
+  border-radius: 15px;
+  color: #FAF7F0;
+  z-index: 1;
+  background: #FFB319;
+  position: relative;
+  font-weight: 1000;
+  font-size: 17px;
+  transition: all 250ms;
+  overflow: hidden;
+  margin-left: 85%;
+}
+   
+  #formToggleBtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #FD841F;
+  color: inherit;
+  z-index: -1;
+  transition: all 250ms
+}
+   
+   #formToggleBtn:hover {
+    color: #FAF7F0;
+    background-color: inherit;
+   }
+   
+   #formToggleBtn:hover::before {
+    width: 100%;
+   }
+
+  .actualpost{
+    margin: 4% 20% 0% 20%;
+    background: #fff9f9;
+    color: inherit;
+    border-radius: 10px;
+    padding: 10px;
+    width: 75%;
+  }
+.btn{
+    background-color: #ffffff;
+    color: inherit;
+}
+ 
+.singletextbox{
+    width: 100%;
+  
+}
+
+.mainImage{
+    width:250px;
+    height: 170px;
+    margin-left: 10px;
+
+}
+  
+.sidenav {
+  width: 300px;
+  padding:1%;
+  margin-top: 10%;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  color: inherit;
+  justify-content: left;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  background-color: inherit;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+  background-color: inherit;
+}
+
+.search{
+  height: 325px;
+  
+
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+
+.sidebar{
+  width: 230px;
+  padding: 1%;
+  margin-top: 50%;
+  text-align: center;
+  background-color: #eefaff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Css for the feedback buttons on the top left*/
+
+.add-btn{
+  border-radius: 2px;
+  background-color: white;
+  color: #000;
+}
+.add-btn:hover{
+  background-color: rgb(62, 168, 108);
+  color: rgb(255, 255, 255);
+}
+
+
+/* End Css for the feedback buttons on the top left*/
+
+.actualComment {
+  display: none;
+}
+
+.actualComment > p > b{
+  color: teal;
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #83cadf;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #3d90cb;
+}
+
+
+
+.btn-group button {
+  background-color: #FFB200; 
+  border: 1px solid #FFCB42; 
+  color: white; 
+  text-align: center;
+} 
+
+.btn-group button:hover{
+  background-color: #FFD36E;
+  transform: scale(1.1); 
+}
+
+.delReport{
+  display: flex;
+  width: fit-content;
+  float: right;
+}
+
+.delReport > button{
+  /* padding: 1em 2.5em; */
+  /* font-size: 10px; */
+  /* text-transform: uppercase; */
+  color: #fff;
+  background-color: rgb(229, 32, 32);
+  border: none;
+  /* border-radius: 15px; */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  /* transition: all 0.3s ease 0s; */
+  cursor: pointer;
+  outline: none;
+  /* margin-top: 2%; */
+  float: right;
+  width: fit-content;
+}
+
+.delReport > button:hover{
+  background-color: rgb(133, 40, 40);
+}
+
+.delReport > #report {
+  margin-left: 5px;
+}

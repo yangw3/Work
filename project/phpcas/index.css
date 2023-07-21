@@ -1,0 +1,118 @@
+body{
+  background: #99dfff;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+section{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:nth-child(1){
+  color: black;
+  }
+section:nth-child(2){
+  color: black;
+  background: #d2f0f8;
+} 
+section:nth-child(3){
+  color: black;
+}
+section:nth-child(4){
+  color: black;
+  background: #C9EFF9;
+}
+section h2{
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+section .text-container{
+   display: flex;
+}
+section .text-container .text-box{
+  margin: 10px;
+  padding: 10px;
+  background: #FAFAFA;
+}
+section .text-container .text-box h3{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px){
+  section h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  section .text-container{
+    flex-direction: column;
+  }
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+.logo{
+  width: 500px;
+}
+
+.profile{
+  width:276px;
+  height:356px;
+}
+
+.buttons{
+padding:10px;
+margin:10px;
+border:0.16em solid rgba(255,255,255,0);
+box-sizing: border-box;
+text-decoration:none;
+font-size: 20px;
+color:#ffffff;
+text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+text-align:center;
+transition: all 0.2s;
+background-color: #FFB562;
+border-radius: 10px;
+}
+
+.buttons:hover{
+border-color: rgba(255,255,255,1);
+}
+
+.intro{
+font-size: 20px;
+margin: 20px;
+padding: 30px;
+border-radius: 10px;
+}
+
+#headerlogo{
+width: 250px;
+margin: 10px;
+}
+
+.icons{
+width: 100px;
+}
+
+.data{
+width:350px;
+}
+
+.large{
+font-size: 25px;
+text-align: center;
+}
